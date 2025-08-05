@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBSPOS - Professional POS and Security Solutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <h1>EBSPOS</h1>
+            </div>
+            <div class="loading-spinner">
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+                <div class="spinner-ring"></div>
+            </div>
+            <div class="loading-text">Loading Excellence...</div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="logo-dark.png" alt="EBSPOS" class="logo-img"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Professional POS and Security Solutions</h2>
+                <p>Trusted by businesses for reliable point-of-sale systems and comprehensive security solutions.</p>
+                <div class="cta-buttons">
+                    <a href="services.html" class="btn btn-primary">Our Services</a>
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose EBSPOS?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon-container">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Trustworthy</h3>
+                    <p>We prioritize security and reliability in all our solutions, ensuring your business operations run smoothly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-container">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Flexible</h3>
+                    <p>Our systems adapt to your specific business needs, providing customized solutions that grow with you.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-container">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Supportive</h3>
+                    <p>Our dedicated team provides ongoing support and training to ensure you get the most from your systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1000000">0</div>
+                    <div class="stat-label">Transactions Processed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99.9">0</div>
+                    <div class="stat-label">Uptime %</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">24/7 Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About EBSPOS</h2>
+                <p>At EBSPOS, we understand that every business has unique needs. We specialize in providing point-of-sale and security solutions that are not only reliable but also adaptable to your specific requirements.</p>
+                <p>Our team of experts works closely with you to understand your business processes and challenges, ensuring that our solutions enhance your operations and contribute to your success.</p>
+                <a href="#" id="contact-popup-btn" class="btn btn-primary">Contact Us Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EBSPOS</h3>
+                    <p>Professional POS and security solutions for businesses of all sizes.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><a href="contact.html">Get in touch</a> with our team for personalized solutions.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EBSPOS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div class="modal-overlay" id="contact-modal">
+        <div class="modal-container">
+            <div class="modal-close" id="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-header">
+                <h3>Contact Us</h3>
+            </div>
+            <div class="modal-body">
+                <form action="https://formsubmit.co/maxwilliamharris@gmail.com" method="POST" id="popup-contact-form">
+                    <!-- FormSubmit.co configuration -->
+                    <input type="hidden" name="_subject" value="New message from EBSPOS website">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="thank-you.html">
+                    <input type="text" name="_honey" style="display:none">
+                    
+                    <div class="form-group">
+                        <label for="popup-name">Name</label>
+                        <input type="text" id="popup-name" name="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="popup-email">Email</label>
+                        <input type="email" id="popup-email" name="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="popup-phone">Phone (Optional)</label>
+                        <input type="tel" id="popup-phone" name="phone" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="popup-company">Company (Optional)</label>
+                        <input type="text" id="popup-company" name="company" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="popup-subject">Subject</label>
+                        <select id="popup-subject" name="subject" class="form-control" required>
+                            <option value="">Please select a subject</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="New Customer - POS System">New Customer - POS System</option>
+                            <option value="New Customer - Security Solutions">New Customer - Security Solutions</option>
+                            <option value="Existing Customer Support">Existing Customer Support</option>
+                            <option value="Technical Support">Technical Support</option>
+                            <option value="Billing Question">Billing Question</option>
+                            <option value="Request Quote">Request Quote</option>
+                            <option value="Partnership Inquiry">Partnership Inquiry</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="popup-message">Message</label>
+                        <textarea id="popup-message" name="message" class="form-control" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

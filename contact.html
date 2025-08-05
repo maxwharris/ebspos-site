@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EBSPOS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="logo-dark.png" alt="EBSPOS" class="logo-img"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Contact Us</h2>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            <p class="intro-text" style="text-align: center; max-width: 800px; margin: 0 auto 3rem auto;">
+                Have questions about our POS and security solutions? We're here to help. Reach out to our team for personalized assistance.
+            </p>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p>342 Great Neck Rd</p>
+                            <p>Great Neck, NY 11021</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p>(555) 123-4567</p>
+                            <p>Mon-Fri: 9am - 6pm EST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <p>info@ebspos.com</p>
+                            <p>support@ebspos.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <p><strong>Business Hours:</strong></p>
+                            <p>Monday - Friday: 9am - 6pm EST</p>
+                            <p>Saturday: 10am - 2pm EST</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="https://formsubmit.co/info@ebspos.com" method="POST">
+                        <!-- FormSubmit.co configuration -->
+                        <input type="hidden" name="_subject" value="New message from EBSPOS website">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="thank-you.html">
+                        <input type="text" name="_honey" style="display:none">
+                        
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone (Optional)</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company (Optional)</label>
+                            <input type="text" id="company" name="company" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="">Please select a subject</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="New Customer - POS System">New Customer - POS System</option>
+                                <option value="New Customer - Security Solutions">New Customer - Security Solutions</option>
+                                <option value="Existing Customer Support">Existing Customer Support</option>
+                                <option value="Technical Support">Technical Support</option>
+                                <option value="Billing Question">Billing Question</option>
+                                <option value="Request Quote">Request Quote</option>
+                                <option value="Partnership Inquiry">Partnership Inquiry</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Google Map Section -->
+            <div class="map-section" style="margin-top: 4rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem; color: var(--text-primary);">Find Us</h3>
+                <div class="map-container" style="border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-lg); border: 1px solid var(--gray-200);">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.73167492404069!3d40.78013397138596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2803dedb378e7%3A0x6f68a3f5b1e5b1e5!2s342%20Great%20Neck%20Rd%2C%20Great%20Neck%2C%20NY%2011021!5e0!3m2!1sen!2sus!4v1640995200000!5m2!1sen!2sus"
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Page for Form Submission -->
+    <div id="thank-you" style="display: none; text-align: center; padding: 5rem 0;">
+        <div class="container">
+            <i class="fas fa-check-circle" style="font-size: 4rem; color: var(--secondary-color); margin-bottom: 2rem;"></i>
+            <h2>Thank You!</h2>
+            <p>Your message has been sent successfully. We'll get back to you as soon as possible.</p>
+            <a href="index.html" class="btn btn-primary" style="margin-top: 2rem;">Return to Home</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EBSPOS</h3>
+                    <p>Professional POS and security solutions for businesses of all sizes.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="knowledge-base.html">Knowledge Base</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><a href="contact.html">Get in touch</a> with our team for personalized solutions.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EBSPOS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Check if the URL has a success parameter (for form submission)
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('success')) {
+            document.querySelector('.main-content').style.display = 'none';
+            document.getElementById('thank-you').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
